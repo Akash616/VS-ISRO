@@ -7,6 +7,7 @@
 - Kotlin
 - Android Studio
 - Retrofit
+- REST API
 - MVVM Architecture
 - Navigation Component
 
