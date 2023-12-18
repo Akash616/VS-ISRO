@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.kotlinpratice.vs_isro.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreenFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.kotlinpratice.vs_isro.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_centresFragment"
+            app:destination="@id/centresFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_customerSatellitesFragment"
+            app:destination="@id/customerSatellitesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_launchersFragment"
+            app:destination="@id/launchersFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_spacecraftsFragment"
+            app:destination="@id/spacecraftsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/centresFragment"
+        android:name="com.kotlinpratice.vs_isro.rvontapfragment.CentresFragment"
+        android:label="fragment_centres"
+        tools:layout="@layout/fragment_centres" />
+    <fragment
+        android:id="@+id/customerSatellitesFragment"
+        android:name="com.kotlinpratice.vs_isro.rvontapfragment.CustomerSatellitesFragment"
+        android:label="fragment_customer_satellites"
+        tools:layout="@layout/fragment_customer_satellites" />
+    <fragment
+        android:id="@+id/launchersFragment"
+        android:name="com.kotlinpratice.vs_isro.rvontapfragment.LaunchersFragment"
+        android:label="LaunchersFragment" />
+    <fragment
+        android:id="@+id/spacecraftsFragment"
+        android:name="com.kotlinpratice.vs_isro.rvontapfragment.SpacecraftsFragment"
+        android:label="SpacecraftsFragment" />
+</navigation>
