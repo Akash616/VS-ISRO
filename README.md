@@ -21,4 +21,11 @@
   <img src="https://github.com/Akash616/VS-ISRO/assets/66737001/8296d112-6aa8-47ee-8d18-8a524a313e64" alt="spacecrafts" width="45%">
   <img src="https://github.com/Akash616/VS-ISRO/assets/66737001/e731e6b8-b493-4ad8-8e39-68ef9132650f" alt="about_us" width="45%">
 </p>
-https://github.com/Akash616/VS-ISRO/assets/66737001/c7032f2f-08ec-4ffb-89b7-3d6dc302e897
+
+<p align="center">
+  <video width="320" height="240" controls>
+  <source src="https://github.com/Akash616/VS-ISRO/assets/66737001/c7032f2f-08ec-4ffb-89b7-3d6dc302e897" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</p>
+
